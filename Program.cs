@@ -47,28 +47,31 @@
 
 // 6, 1, 33 -> [6, 1, 33]
 
-int[] CreateArray(int size)
-{
-    int[] array=new int [size];
-    for(int i=0; i<size; i++)
-        Console.Write("Input a number of elements: ");
-        int size = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Input a number 1: ");
-        int num1 = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Input a number 2: ");
-        int num2 = Convert.ToInt32(Console.ReadLine());
-        array[i]=new Random(). Next(min, max+1);
 
-    return array;
+// int[] CreateArray(int size)
+// {   
+//     int[]array = new int [size];
+
+//      for(int i=0; i<size; i++)
+        
+//         {
+//             Console.Write("Введите элемент массива ");
+//             int num = Convert.ToInt32(Console.ReadLine());
+//             array [i]= num;
+//        }
+
+//     return array;
    
-}
-void ShowArray(int[] array)
-{
-    for (int i=0; i<array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-}
+// }
+// void ShowArray(int[] array)
+// {
+//     for (int i=0; i<array.Length; i++)
+//     {
+//         Console.Write(array[i] + " ");
+//     }
+// }
 
-int[] myArray = CreateArray(size, num1, num2);
-ShowArray(myArray);
+// Console.Write("Введите количество элементов в массиве:");
+// int size = Convert.ToInt32(Console.ReadLine());
+// int[] myArray = CreateArray(size);
+// ShowArray(myArray);
